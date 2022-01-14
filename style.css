@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 h2 h5 h3 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+/* HEADER SECTION */
+
+.main-flex-container {
+  display: flex;
+  background: linear-gradient(#0d2951 70%, white 25%);
+  padding: 1em;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.title {
+  text-shadow: 2px 2px 0px black;
+  font-size: 3vw;
+  margin: 0;
+  text-align: start;
+}
+
+.subtitle {
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-align: start;
+}
+
+.stats {
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.content-image-1 {
+  flex-basis: 50%;
+  align-content: end;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.content-1 {
+  text-align: end;
+  color: #fec524;
+  flex-basis: 50%;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+.about {
+  display: block;
+  width: auto;
+  margin: auto;
+  padding: 0 18vw 0 18vw;
+  line-height: 1.5em;
+}
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1450px) {
+  .about-flex {
+    display: block;
+    width: 100%;
+  }
+  .about {
+    padding: 0 10vw 0 10vw;
+  }
+}
+
+.about-flex > * {
+  flex: 1 1 50%;
+}
+
+.about-flex-column1 {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.gif {
+  padding-left: 10px;
+  width: auto;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  align-self: flex-end;
+}
