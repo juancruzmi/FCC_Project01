@@ -1,4 +1,4 @@
-This is the 1st proyect of the freeCodeCamp Responsive Web Design Certification.
+This is the 1st project of the freeCodeCamp Responsive Web Design Certification.
 
 I made a tribute page for basketball player Facundo Campazzo.
 
